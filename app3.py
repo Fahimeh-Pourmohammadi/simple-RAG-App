@@ -7,7 +7,7 @@ from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 
-OPENAI_API_KEY="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"
+OPENAI_API_KEY=""
 
 # Chain to extract each section of the contract and return valid JSON for that section
 def create_section_extraction_chain(section_name):

@@ -1,2 +1,6 @@
 # Ignore environment files
 .env
+
+
+__pycache__/
+app2.py
